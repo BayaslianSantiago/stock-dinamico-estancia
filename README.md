@@ -20,9 +20,9 @@
 
 ### Pero “PROMO_1” en realidad incluye:
 
-1. 0.2 kg de Queso
+* 0.2 kg de Queso
 
-2. 0.2 kg de Jamón Cocido
+* 0.2 kg de Jamón Cocido
 
 Entonces, vender 10 promos implica que también se consumieron internamente:
 
