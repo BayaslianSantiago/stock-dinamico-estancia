@@ -30,6 +30,25 @@ Entonces, vender 10 promos implica que también se consumieron internamente:
 
 * 2 kg de Jamón Cocido
 
-2 kg de Mortadela
+Podés crear un archivo aparte, por ejemplo promos_componentes.csv, donde se detalla la “receta” de cada promoción:
+
+    promo,producto_base,cantidad_consumida,unidad_base
+    PROMO_1,Queso Tybo,0.2,kg
+    PROMO_1,Jamón Cocido,0.3,kg
+    PROMO_1,Mortadela,0.2,kg
+    
+    PROMO_2,Queso Tybo,0.15,kg
+    PROMO_2,Salame,0.25,kg
+    PROMO_2,Mortadela,0.25,kg
+
+El Script tiene que:
+
+Detectar las ventas de promociones en la facturación.
+
+Consultar la tabla de componentes.
+
+Calcular el consumo indirecto real que generan las promos.
+
+Sumarlo al consumo normal antes de actualizar el stock.
 
 Y eso debe descontarse del stock aunque no figure explícitamente en la facturación.
